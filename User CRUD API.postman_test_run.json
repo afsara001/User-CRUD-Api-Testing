@@ -1,0 +1,154 @@
+{
+	"id": "30b9b24b-c1f8-4545-892e-cbd73779d0eb",
+	"name": "User CRUD API",
+	"timestamp": "2024-12-26T05:42:49.267Z",
+	"collection_id": "37943010-114b7f03-acfb-475e-8fea-8fb55109d11d",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-12-26T05:42:48.371Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "0499f1ac-c487-4c5f-8bf9-f7d4a0022460",
+			"name": "test operation",
+			"url": "http://localhost:1111/users",
+			"time": 102,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				102
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ff03b574-5c46-48e1-9953-e5c71ed77707",
+			"name": "Create a New User",
+			"url": "http://localhost:1111/users",
+			"time": 39,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				39
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "05706ea6-aa16-4fc0-8dd1-dbbfaa4f929e",
+			"name": "Get a User by Name",
+			"url": "http://localhost:1111/users/John Doe",
+			"time": 5,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "14895b78-ddbc-42f7-940e-527a4b9e3c5a",
+			"name": "Get a User by Id",
+			"url": "http://localhost:1111/users/1735191295856",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d49c6f5d-5c27-40a0-8f49-b89bce012060",
+			"name": "Update a User",
+			"url": "http://localhost:1111/users/1735154111011",
+			"time": 8,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				8
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "aa75d96e-2ec5-4f9f-bca6-2fc968c44acc",
+			"name": "Delete a User",
+			"url": "http://localhost:1111/users/1735154171426",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				6
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 163,
+	"collection": {
+		"requests": [
+			{
+				"id": "0499f1ac-c487-4c5f-8bf9-f7d4a0022460",
+				"method": "GET"
+			},
+			{
+				"id": "ff03b574-5c46-48e1-9953-e5c71ed77707",
+				"method": "POST"
+			},
+			{
+				"id": "05706ea6-aa16-4fc0-8dd1-dbbfaa4f929e",
+				"method": "GET"
+			},
+			{
+				"id": "14895b78-ddbc-42f7-940e-527a4b9e3c5a",
+				"method": "GET"
+			},
+			{
+				"id": "d49c6f5d-5c27-40a0-8f49-b89bce012060",
+				"method": "PUT"
+			},
+			{
+				"id": "aa75d96e-2ec5-4f9f-bca6-2fc968c44acc",
+				"method": "GET"
+			}
+		]
+	}
+}
